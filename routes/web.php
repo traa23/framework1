@@ -27,3 +27,4 @@ Route::get('/about', function () {
 
 Route::get('mahasiswa/{param1}', [MahasiswaController::class, 'show']);
 Route::get('/home', [HomeController::class, 'index'])->name('home');
+// bismillah
